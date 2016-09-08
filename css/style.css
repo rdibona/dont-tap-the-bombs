@@ -1,0 +1,118 @@
+@font-face {
+	font-family: "VideoGame";
+	src: url('game.ttf');
+}
+
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url('icons.ttf');
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body, html{
+	font-family: VideoGame;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 96px;
+  color: rgba(255, 255, 255, 1);
+  display: inline-block;
+/*  line-height: 1; */
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  padding-top: 7px;
+  max-width: 120px;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+}
+
+#main {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+#header {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    height: 55px;
+    padding: 15px 50px 0px 50px;
+    text-align: center;
+    color: #FFF;
+}
+
+#footer {
+    position: absolute;
+    display: table-cell;
+    color: #FFF;
+    bottom: 0;
+    left: 0;
+    height: 55px;
+    line-height: 55px;
+    padding: 0px 50px 15px 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#intro {
+    position: absolute;
+    color: #0F0;
+    line-height: 24px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.vert-align {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.quad {
+    position: absolute;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+
+.quad img {
+    height: 110px;
+    width: 110px;
+    padding-left: 4px;
+}
+
+.title {
+	color: #FFFF00;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+#quit {
+	color: #FFFF00;
+	font-size: 24px;
+}
+
+#start, #retry {
+	color: #00FFFF;
+	font-size: 24px;
+}
+
